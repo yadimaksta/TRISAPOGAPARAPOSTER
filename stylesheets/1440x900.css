@@ -4,7 +4,7 @@ body {
   width: 1440px;
   margin: 0 auto;
   background: black;
-  height: 3000px;
+  height: 2768px;
 }
 p {
   font-family: Helvetica;
@@ -12,7 +12,6 @@ p {
   font-weight: normal;
   font-size: 26px;
   line-height: 102%;
-  /* or 27px */
 }
 h2 {
   font-family: Helvetica;
@@ -29,14 +28,6 @@ h1 {
   font-size: 416px;
   line-height: 424px;
 }
-.temp:hover ~ .numbers1-2-1{
-  background-image: url('../images/numbers1-1.svg');
-  width: 492px;
-}
-.temp {
-  fill: none;
-  position: absolute;
-}
 
 
 
@@ -44,6 +35,9 @@ h1 {
 .section01 {
   display: flex;
   justify-content: space-between;
+}
+.logo0 {
+  display: none
 }
 .block1-1 {
   width: 883px;
@@ -169,7 +163,7 @@ h1 {
 }
 @keyframes numbers-change {
   0% {
-    width: 493px;
+    width: 492px;
     background-image: url('../images/numbers1-1.svg');
   }
   10% {
@@ -189,7 +183,7 @@ h1 {
     background-image: url('../images/numbers1-6.svg');
   }
   50% {
-    width: 498px;
+    width: 497px;
     background-image: url('../images/numbers1-2.svg');
   }
   60% {
@@ -209,7 +203,7 @@ h1 {
     background-image: url('../images/numbers1-6.svg');
   }
   100% {
-    width: 493px;
+    width: 492px;
     background-image: url('../images/numbers1-1.svg');
   }
 }
