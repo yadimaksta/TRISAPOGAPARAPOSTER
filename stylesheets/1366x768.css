@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
 
 body {
-  width: 1440px;
+  width: 1366px;
   margin: 0 auto;
   background: black;
-  height: 3000px;
+  height: 2768px;
 }
 p {
   font-family: Helvetica;
@@ -12,7 +12,6 @@ p {
   font-weight: normal;
   font-size: 26px;
   line-height: 102%;
-  /* or 27px */
 }
 h2 {
   font-family: Helvetica;
@@ -29,14 +28,6 @@ h1 {
   font-size: 416px;
   line-height: 424px;
 }
-.temp:hover ~ .numbers1-2-1{
-  background-image: url('../images/numbers1-1.svg');
-  width: 492px;
-}
-.temp {
-  fill: none;
-  position: absolute;
-}
 
 
 
@@ -44,6 +35,9 @@ h1 {
 .section01 {
   display: flex;
   justify-content: space-between;
+}
+.logo0 {
+  display: none
 }
 .block1-1 {
   width: 883px;
@@ -57,6 +51,7 @@ h1 {
   overflow: hidden;
 }
 .objects {
+  margin-left: -37px;
   position: absolute;
   top: -2463px;
   animation: objects-move 4s linear infinite;
@@ -218,7 +213,7 @@ h1 {
 
 /* БЛОК 2 */
 .rect2-1 {
-  width: 1400px;
+  width: 1326px;
   height: 720px;
   background: #FFFFFF;
   border-radius: 4px;
@@ -230,19 +225,19 @@ h1 {
 }
 .rect2-1-1, .rect2-1-2, .rect2-1-3 {
   position: absolute;
-  height: 467px;
+  height: 442px;
   transform: rotate(-90deg);
 }
 .rect2-1-1 {
-  margin-left: -2428px;
+  margin-left: -2441px;
   animation: r2-1-1-move 6s linear infinite;
 }
 .rect2-1-2 {
-  margin-left: -2308px;
+  margin-left: -2345px;
   animation: r2-1-2-move 10s linear infinite;
 }
 .rect2-1-3 {
-  margin-left: -1688px;
+  margin-left: -1749px;
   animation: r2-1-3-move 5s linear infinite;
 }
 .rect2-1-1:hover, .rect2-1-2:hover, .rect2-1-3:hover {
@@ -266,7 +261,7 @@ h1 {
 
 /* БЛОК 3 */
 .section03 {
-  width: 1400px;
+  width: 1326px;
   height: 468px;
   border-radius: 4px;
   margin: 20px;
@@ -284,6 +279,7 @@ h1 {
   margin-left: 32px;
   margin-top: -134px;
   position: absolute;
+  width: 1262px;
 }
 .section03:hover .image3-1 {
   background-image: url('../images/image3-2.svg');
@@ -300,7 +296,7 @@ h1 {
 
 /* БЛОК 4 */
 .section04 {
-  width: 1400px;
+  width: 1326px;
   height: 600px;
   border-radius: 4px;
   margin: 20px;
