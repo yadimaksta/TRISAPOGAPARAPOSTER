@@ -1,0 +1,12 @@
+@import 'reset.css';
+@import '1920x1080.css';
+@import '1440x900.css';
+@import '1366x768.css';
+@import '1024x768.css';
+@import '768x1024.css';
+@import '414x896.css';
+@import '360x640.css';
+@font-face {
+font-family: 'Helvetica';
+src: url('fonts/HelveticaNeueCyr-Roman.ttf') format("truetype");
+}

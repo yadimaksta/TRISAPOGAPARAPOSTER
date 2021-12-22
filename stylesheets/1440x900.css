@@ -1,0 +1,160 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background: black;
+  height: 2768px;
+}
+p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 102%;
+  /* or 27px */
+}
+h2 {
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 92px;
+line-height: 92px;
+text-align: right;
+}
+
+
+/* БЛОК 1 */
+.section01 {
+  display: flex;
+  justify-content: space-between;
+}
+.block1-1 {
+  width: 883px;
+  height: 860px;
+  background: #FD4E2B;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clip-path: inset(0 0 0 0 round 4px);
+}
+.objects {
+  position: absolute;
+  top: -2463px;
+  animation: objects-move 4s linear infinite;
+}
+.objects1, .objects2 {
+  position: absolute;
+  width: 1440px;
+}
+.objects2 {
+  top: 1840px;
+}
+.objects:hover {
+  animation-play-state: paused;
+}
+.objects1-1, .objects1-2, .objects1-3, .objects1-4, .objects1-5, .objects1-6, .objects1-7, .objects1-8, .objects1-9, .objects1-10 {
+  position: relative;
+  z-index: 2;
+  fill: black;
+}
+.objects1-1 {
+  top: 0;
+  left: 26px;
+}
+.objects1-2 {
+  top: -262px;
+  left: -18px;
+}
+.objects1-3 {
+  top: -386px;
+  left: 258px;
+}
+.objects1-4 {
+  top: -54px;
+  left: -826px;
+}
+.objects1-5 {
+  top: -518px;
+  left: 458px;
+}
+.objects1-6 {
+  top: -262px;
+  left: -434px;
+}
+.objects1-7 {
+  top: -596px;
+  left: 308px;
+}
+.objects1-8 {
+  top: -260px;
+  left: -170px;
+}
+.objects1-9 {
+  top: -690px;
+  left: -72px;
+}
+.objects1-10 {
+  top: -672px;
+  left: -40px;
+}
+.path1:hover {
+  fill: #FFED46;
+}
+.temp:hover ~ .numbers1-2-1{
+  background-image: url('images/numbers1-1.svg');
+}
+.temp {
+  height: 20px; width: 100px; background-color: white
+}
+.block1-2-1 {
+  display: block;
+}
+.numbers1-2-1 {
+  width: 497px;
+  height: 230px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-image: url('images/numbers1-2.svg');
+}
+.rect1-2-1 {
+  width: 497px;
+  height: 610px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 20px;
+  display: inline-block;
+}
+.bottom1-2 {
+  display: flex;
+  justify-content: space-between;
+    margin-top: 264px;
+}
+.text1-2-1 {
+  margin: 26px;
+}
+.logo1 {
+  margin-left: 26px
+}
+.article1-2-1 {
+  margin-right: 26px
+}
+@keyframes objects-move {
+  0% {top: -2463px;}
+  100% {top: -623px;}
+}
+
+
+
+/* БЛОК 2 */
+.section02 {
+  display: flex;
+}
+.rect2-1 {
+  width: 1400px;
+  height: 720px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
