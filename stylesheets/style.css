@@ -8,5 +8,5 @@
 @import '360x640.css';
 @font-face {
 font-family: 'Helvetica';
-src: url('fonts/HelveticaNeueCyr-Roman.ttf') format("truetype");
+src: url('../fonts/HelveticaNeueCyr-Roman.ttf') format("truetype");
 }
