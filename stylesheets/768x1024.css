@@ -4,7 +4,6 @@ body {
   width: 768px;
   margin: 0 auto;
   background: black;
-  height: 3000px;
 }
 p {
   font-family: Helvetica;
@@ -37,7 +36,7 @@ h1 {
   justify-content: space-between;
 }
 .block1-1 {
-  width: 613px;
+  width: 357px;
   height: 800px;
   background: #FD4E2B;
   border-radius: 4px;
@@ -186,10 +185,12 @@ h1 {
 }
 .rect2-1-1 {
   margin-left: -1736px;
+  top: -916px;
   animation: r2-1-1-move 6s linear infinite;
 }
 .rect2-1-2 {
   margin-left: -1620px;
+  top: -1166px;
   animation: r2-1-2-move 10s linear infinite;
 }
 .rect2-1-3 {
@@ -202,16 +203,12 @@ h1 {
   color: #FD4E2B;
 }
 @keyframes r2-1-1-move {
-  0% {top: -916px}
-  100% {top: 1045px}
+  0% {top: -734px}
+  100% {top: 1227px}
 }
 @keyframes r2-1-2-move {
-  0% {top: -1166px}
-  100% {top: 1045px}
-}
-@keyframes r2-1-3-move {
-  0% {top: -1060px}
-  100% {top: 1040px}
+  0% {top: -984px}
+  100% {top: 1227px}
 }
 
 
