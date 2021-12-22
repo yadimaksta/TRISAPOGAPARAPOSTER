@@ -164,9 +164,9 @@ h1 {
   clip-path: inset(0 0 0 0 round 4px);
 }
 .rect2-1-1, .rect2-1-2, .rect2-1-3 {
-    position: absolute;
-    height: 467px;
-    transform: rotate(-90deg);
+  position: absolute;
+  height: 467px;
+  transform: rotate(-90deg);
 }
 .rect2-1-1 {
   margin-left: -2428px;
@@ -175,12 +175,10 @@ h1 {
 .rect2-1-2 {
   margin-left: -2308px;
   animation: r2-1-2-move 10s linear infinite;
-  top: -500px;
 }
 .rect2-1-3 {
   margin-left: -1688px;
   animation: r2-1-3-move 5s linear infinite;
-    top: -500px;
 }
 .rect2-1-1:hover, .rect2-1-2:hover, .rect2-1-3:hover {
   background-color: #FFED46;
