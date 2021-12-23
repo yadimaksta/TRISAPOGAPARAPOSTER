@@ -114,8 +114,8 @@ h1 {
   overflow: hidden;
 }
 .rect2-1-1 {
-  position: absolute;
-  height: 336px;
+  position: fixed;
+  height: 342px;
   transform: rotate(-90deg);
 }
 .rect2-1-1 {
