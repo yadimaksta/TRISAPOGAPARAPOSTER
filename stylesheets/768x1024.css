@@ -1,5 +1,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+html {overflow-x: hidden;}
+
 body {
   width: 768px;
   margin: 0 auto;
