@@ -1,7 +1,6 @@
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
 
 html {overflow-x: hidden;}
-
 body {
   width: 1440px;
   margin: 0 auto;
@@ -36,7 +35,6 @@ h1 {
 /* БЛОК 1 */
 .section01 {
   display: flex;
-  justify-content: space-between;
 }
 .logo0 {
   display: none
@@ -52,73 +50,17 @@ h1 {
   clip-path: inset(0 0 0 0 round 4px);
   overflow: hidden;
 }
-.objects {
-  position: absolute;
-  top: -2463px;
-  animation: objects-move 4s linear infinite;
+.details {
+  position: relative;
+  margin-left: -110px;
+  animation: objects-move 6s linear infinite;
+  animation-play-state: running;
 }
-.objects1, .objects2 {
-  position: absolute;
-  width: 1440px;
-}
-.objects2 {
-  top: 1840px;
-}
-.objects:hover {
+.details:hover {
   animation-play-state: paused;
 }
-.objects1-1, .objects1-2, .objects1-3, .objects1-4, .objects1-5, .objects1-6, .objects1-7, .objects1-8, .objects1-9, .objects1-10 {
-  position: relative;
-  z-index: 2;
-  fill: black;
-}
-.objects1-1 {
-  top: 0;
-  left: 26px;
-}
-.objects1-2 {
-  top: -262px;
-  left: -18px;
-}
-.objects1-3 {
-  top: -386px;
-  left: 258px;
-}
-.objects1-4 {
-  top: -54px;
-  left: -826px;
-}
-.objects1-5 {
-  top: -518px;
-  left: 458px;
-}
-.objects1-6 {
-  top: -262px;
-  left: -434px;
-}
-.objects1-7 {
-  top: -596px;
-  left: 308px;
-  fill: white;
-}
-.objects1-8 {
-  top: -260px;
-  left: -170px;
-}
-.objects1-9 {
-  top: -690px;
-  left: -72px;
-}
-.objects1-10 {
-  top: -672px;
-  left: -40px;
-}
 .path1:hover {
-  /* fill: #FFED46; */
-  animation: pulse-anim 0.44s steps(1) infinite;
-}
-.block1-2-1 {
-  display: block;
+  fill: #FFED46;
 }
 .numbers1-2-1 {
   width: 497px;
@@ -143,7 +85,7 @@ h1 {
 .bottom1-2 {
   display: flex;
   justify-content: space-between;
-    margin-top: 264px;
+  margin-top: 264px;
 }
 .text1-2-1 {
   margin: 26px;
@@ -155,13 +97,8 @@ h1 {
   margin-right: 26px
 }
 @keyframes objects-move {
-  0% {top: -2463px;}
-  100% {top: -623px;}
-}
-@keyframes pulse-anim {
-  0% {fill: #FFED46;}
-  50% {fill: inherit;}
-  100% {fill: #FFED46;}
+  0% {top: -2758px}
+  100% {top: -944px;}
 }
 @keyframes numbers-change {
   0% {
@@ -222,7 +159,6 @@ h1 {
   margin-right: 20px;
   margin-bottom: 40px;
   clip-path: inset(0 0 0 0 round 4px);
-  overflow: hidden;
 }
 .rect2-1-1, .rect2-1-2, .rect2-1-3 {
   position: absolute;
