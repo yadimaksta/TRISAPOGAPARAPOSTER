@@ -49,71 +49,18 @@ h1 {
   clip-path: inset(0 0 0 0 round 4px);
   overflow: hidden;
 }
-.objects {
-  position: absolute;
-  top: -1880px;
-  animation: objects-move 3.6s linear infinite;
+.details {
+  position: relative;
+  margin-left: -270px;
+  animation: objects-move 5s linear infinite;
+  animation-play-state: running;
   transform: scale(0.7);
 }
-.objects1, .objects2 {
-  position: absolute;
-  width: 1440px;
-}
-.objects2 {
-  top: 1840px;
-}
-.objects:hover {
+.details:hover {
   animation-play-state: paused;
 }
-.objects1-1, .objects1-2, .objects1-3, .objects1-4, .objects1-5, .objects1-6, .objects1-7, .objects1-8, .objects1-9, .objects1-10 {
-  position: relative;
-  z-index: 2;
-  fill: black;
-}
-.objects1-1 {
-  top: 0;
-  left: 26px;
-}
-.objects1-2 {
-  top: -262px;
-  left: -18px;
-}
-.objects1-3 {
-  top: -386px;
-  left: 258px;
-}
-.objects1-4 {
-  top: -54px;
-  left: -826px;
-}
-.objects1-5 {
-  top: -518px;
-  left: 458px;
-}
-.objects1-6 {
-  top: -262px;
-  left: -434px;
-}
-.objects1-7 {
-  top: -596px;
-  left: 308px;
-  fill: white;
-}
-.objects1-8 {
-  top: -260px;
-  left: -170px;
-}
-.objects1-9 {
-  top: -690px;
-  left: -72px;
-}
-.objects1-10 {
-  top: -672px;
-  left: -40px;
-}
 .path1:hover {
-  /* fill: #FFED46; */
-  animation: pulse-anim 0.44s steps(1) infinite;
+  fill: #FFED46;
 }
 .block1-2-1 {
   display: block;
@@ -124,12 +71,7 @@ h1 {
   margin-left: 18px;
   margin-top: 18px;
   background-image: url('../images/numbers1-2.svg');
-  /* animation: numbers-change 3.5s steps(1) infinite;
-  animation-play-state: paused; */
 }
-/* .numbers1-2-1:hover {
-  animation-play-state: running;
-} */
 .rect1-2-1 {
   width: 357px;
   height: 417px;
@@ -157,13 +99,8 @@ h1 {
   margin-right: 20px
 }
 @keyframes objects-move {
-  0% {top: -1880px;}
-  100% {top: -592px;}
-}
-@keyframes pulse-anim {
-  0% {fill: #FFED46;}
-  50% {fill: inherit;}
-  100% {fill: #FFED46;}
+  0% {top: -2491px}
+  100% {top: -1221px;}
 }
 
 
